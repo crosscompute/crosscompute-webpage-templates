@@ -1,0 +1,127 @@
+/******  NAVBAR  ******/
+
+.navbar-custom {
+	background: white;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #1A569B;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #1A569B;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #1A569B;
+}
+
+/******  NAVBAR  ******/
+.footer-custom, .footer-custom ul a {
+	background: white;
+	color: #1A569B;
+}
+
+
+
+/******  HERO  ******/
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    background-color: white;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-content {
+    position: relative;
+    width: 71%;
+    padding: 2% 2% 0 2%;
+}
+
+
+/******  SIGNUP-FORM  ******/
+.signup-form {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.form-signup-hightlight-text {
+	color: #F7B850;
+	text-decoration: underline;
+}
+
+.signup-border-blue {
+	border: 1px solid #0C2F59;
+	box-shadow: 3px 3px #6FA4E1;
+	box-shadow: 0 4px 8px 0 rgba(12,47,89, 0.3), 0 6px 20px 0 rgba(12,47,89, 0.3);
+}
+
+
+/******  BORDERS  ******/
+.cc-border-blue {
+	border: #6FA4E1;
+}
+
+
+/******  backgroud colors  ******/
+.cc-bg-blue {
+	background: #6FA4E1;
+	color: white !important;
+}
+
+.cc-bg-green {
+	background: #95C957;
+	color: white !important;
+}
+
+
+
+/******  SOCIAL MEDIA LINKS  ******/
+.social-logo-sm-round {
+	width: 30px;
+	border: 3px solid #1A569B;
+	padding: 2px;
+	border-radius: 100%;
+}
+
+
+
+
+/******  NAVBAR TWO  ******/
+.navbar-custom2 {
+	background: #D8E4F1;
+}
+
+/* change the brand and text color */
+.navbar-custom2 .navbar-brand,
+.navbar-custom2 .navbar-text {
+    color: #1A569B;
+}
+
+/* change the link color */
+.navbar-custom2 .navbar-nav .nav-link {
+    color: #1A569B;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom2 .nav-item.active .nav-link,
+.navbar-custom2 .nav-item:hover .nav-link {
+    color: #1A569B;
+}
+
+
+/******  SIGN IN PAGE  ******/
+.
