@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-custom2 py-2">
+        <nav class="navbar navbar-expand-md navbar-custom2 py-2 navbar-light">
             <a class="navbar-brand" href="#">
                 <img src="https://storage.googleapis.com/crosscompute-website-20170828/logo-20170324-32x32.png" alt="crosscomputeLogo"  width="30px" height="30px">
             </a>
@@ -28,7 +28,7 @@
                         <a class="nav-link" href="#">Explore Tools</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-md bg-white" href="#">Sign In</a>
+                        <a class="nav-link btn btn-md bg-white border" href="#">Run for Free</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Create an Account</a>
@@ -39,7 +39,29 @@
         </nav>
     </header>
     <main>
-        
+        <div class="login-form d-flex flex-column justify-content-center align-content-center ">
+            <ul class="mx-auto list-inline login-tab">
+                <li class="list-inline-item active">
+                    <a href="#">User Login</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Visitor Access</a>
+                </li>
+            </ul>
+            <form>
+                  <label for="inputEmail" class="sr-only">Email address</label>
+                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                  <label for="inputPassword" class="sr-only">Password</label>
+                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                  <div class="checkbox mb-3">
+                    <label>
+                      <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                  </div>
+                  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                  <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+                </form>
+        </div>
         
     </main>
 

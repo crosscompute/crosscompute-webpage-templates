@@ -122,6 +122,21 @@
     color: #1A569B;
 }
 
+/******  LogIn Page  ******/
+.login-form {
+    height: 65vh;
+    background: white;
+    max-width: 350px;
+    margin: 0 auto;
+}
 
-/******  SIGN IN PAGE  ******/
-.
+.login-form ul .list-inline-item {
+    border-bottom: 2px solid black;
+}
+
+
+.login-form ul .active a{
+    color: black;
+    font-weight: bold;
+}
+
