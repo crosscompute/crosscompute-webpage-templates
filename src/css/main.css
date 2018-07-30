@@ -75,6 +75,10 @@
 	border: #6FA4E1;
 }
 
+.cc-border-darkblue {
+	border: 1px solid #143D6D;
+}
+
 
 /******  backgroud colors  ******/
 .cc-bg-blue {
@@ -123,20 +127,73 @@
 }
 
 /******  LogIn Page  ******/
-.login-form {
+.login-form-wrapper {
     height: 65vh;
     background: white;
     max-width: 350px;
     margin: 0 auto;
 }
 
-.login-form ul .list-inline-item {
+.login-form-wrapper ul .list-inline-item {
+    border-bottom: 2px solid #909090;
+    padding: 5px;
+}
+
+.login-form-wrapper ul .active,
+.login-form-wrapper ul .list-inline-item:hover {
     border-bottom: 2px solid black;
 }
 
+.login-form-wrapper ul .list-inline-item a {
+	color: #909090;
+	text-decoration: none;
+}
 
-.login-form ul .active a{
+
+.login-form-wrapper ul .active a, 
+.login-form-wrapper ul .list-inline-item a:hover {
     color: black;
     font-weight: bold;
 }
 
+.login-form {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.login-form a {
+	color: #848484;
+}
+
+
+.login-form button {
+	background: #F8F6F6;
+	color: black;
+
+}
+
+.login-form input {
+	height: 50px;
+}
+
+.login-form input[type=email],
+.login-form input[type=email]:hover{
+	border: 1px solid #D8A3AB;
+}
+
+.login-form input[type=email]:focus {
+	box-shadow: 0px 0px 10px #D8A3AB;
+}
+
+.login-form input[type=password],
+.login-form input[type=password]:hover {
+	border: 1px solid #799AB9;
+}
+
+.login-form input[type=password]:focus {
+	border: 0 0 10px #799AB9;
+}
+
+.login-form a {
+	text-decoration: underline;
+}

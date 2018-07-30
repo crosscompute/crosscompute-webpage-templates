@@ -28,7 +28,7 @@
                         <a class="nav-link" href="#">Explore Tools</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-md bg-white border" href="#">Run for Free</a>
+                        <a class="nav-link btn btn-md bg-white cc-border-darkblue" href="#">Run for Free</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Create an Account</a>
@@ -39,27 +39,27 @@
         </nav>
     </header>
     <main>
-        <div class="login-form d-flex flex-column justify-content-center align-content-center ">
-            <ul class="mx-auto list-inline login-tab">
-                <li class="list-inline-item active">
+        <div class="login-form-wrapper d-flex flex-column justify-content-center align-content-center ">
+            <ul class="mx-auto mb-5 list-inline login-tab">
+                <li class="list-inline-item active mx-2">
                     <a href="#">User Login</a>
                 </li>
-                <li class="list-inline-item">
+                <li class="list-inline-item mx-2">
                     <a href="#">Visitor Access</a>
                 </li>
             </ul>
-            <form>
+            <form class="login-form">
                   <label for="inputEmail" class="sr-only">Email address</label>
                   <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                   <label for="inputPassword" class="sr-only">Password</label>
                   <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                  <div class="checkbox mb-3">
-                    <label>
-                      <input type="checkbox" value="remember-me"> Remember me
-                    </label>
+                  <div class="form-row my-1">
+                    <a class="ml-auto"href="#"><small>Forgot Password?</small></a>
                   </div>
-                  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-                  <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+                  <div class="form-row">
+                    <button class="btn btn-md col-md-4 mx-auto mb-1 mt-3" type="submit">Sign in</button>
+                    <button class="btn btn-md col-md-4 mx-auto mb-1 mt-3" type="submit">Sign Up</button>
+                  </div>
                 </form>
         </div>
         
