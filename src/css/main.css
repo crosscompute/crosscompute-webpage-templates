@@ -179,7 +179,6 @@
 
 
 .login-form input[type=email]{
-    margin-bottom: 15px;
     color: #D8A3AB;
 }
 
@@ -196,16 +195,21 @@
 	box-shadow: 0px 0px 10px #D8A3AB;
 }
 
+.login-form input[type=text],
+.login-form input[type=text]::placeholder,
 .login-form input[type=password],
 .login-form input[type=password]::placeholder {
     color: #799AB9;
 }
 
+.login-form input[type=text],
+.login-form input[type=text]:hover,
 .login-form input[type=password],
 .login-form input[type=password]:hover {
 	border: 1px solid #799AB9;
 }
 
+.login-form input[type=text]:focus,
 .login-form input[type=password]:focus {
 	border: 0 0 10px #799AB9;
 }
@@ -270,4 +274,17 @@
 
 .sign-up-link:hover {
     border-bottom: 1.5px solid #cc6e7c;
+}
+
+
+/******  SIGNUP PAGE  ******/
+
+.login-form .signup {
+    background: #cb6a76;
+    color: white;
+}
+
+.small-print {
+    font-size: 10px;
+    color: #8d8d8d;
 }
