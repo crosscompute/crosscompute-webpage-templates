@@ -127,31 +127,31 @@
 }
 
 /******  LogIn Page  ******/
-.login-form-wrapper {
+.fullscreen-wrapper {
     height: 65vh;
     background: white;
     max-width: 350px;
     margin: 0 auto;
 }
 
-.login-form-wrapper ul .list-inline-item {
+.fullscreen-wrapper ul .list-inline-item {
     border-bottom: 2px solid #909090;
     padding: 5px;
 }
 
-.login-form-wrapper ul .active,
-.login-form-wrapper ul .list-inline-item:hover {
+.fullscreen-wrapper ul .active,
+.fullscreen-wrapper ul .list-inline-item:hover {
     border-bottom: 2px solid black;
 }
 
-.login-form-wrapper ul .list-inline-item a {
+.fullscreen-wrapper ul .list-inline-item a {
 	color: #909090;
 	text-decoration: none;
 }
 
 
-.login-form-wrapper ul .active a, 
-.login-form-wrapper ul .list-inline-item a:hover {
+.fullscreen-wrapper ul .active a, 
+.fullscreen-wrapper ul .list-inline-item a:hover {
     color: black;
     font-weight: bold;
 }
@@ -176,6 +176,17 @@
 	height: 50px;
 }
 
+
+
+.login-form input[type=email]{
+    margin-bottom: 15px;
+    color: #D8A3AB;
+}
+
+.login-form input[type=email]::placeholder {
+    color: #D8A3AB;
+}
+
 .login-form input[type=email],
 .login-form input[type=email]:hover{
 	border: 1px solid #D8A3AB;
@@ -183,6 +194,11 @@
 
 .login-form input[type=email]:focus {
 	box-shadow: 0px 0px 10px #D8A3AB;
+}
+
+.login-form input[type=password],
+.login-form input[type=password]::placeholder {
+    color: #799AB9;
 }
 
 .login-form input[type=password],
@@ -196,4 +212,62 @@
 
 .login-form a {
 	text-decoration: underline;
+}
+
+
+/******  VISITORS PAGE  ******/
+
+.visitor-page {
+    color: #cc6e7c;
+}
+
+.link-button {
+    width: 100%;
+    background: white;
+    max-width: 190px;
+    padding-top: 11px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-button:hover {
+    text-decoration: none;
+}
+
+.link-button-red {
+    border: 2px solid #e0a7b0;
+    color: #cc6e7c;
+}
+
+.link-button-red:hover,
+.link-button-red:focus {
+    box-shadow: 0px 0px 10px #e0a7b0;
+    color: #cc6e7c;
+}
+
+.link-button-blue {
+    border: 2px solid #bbccda;
+    color: #96b1c7;
+}
+
+.link-button-blue:hover,
+.link-button-blue:focus {
+    box-shadow: 0px 0px 10px #bbccda;
+    color: #96b1c7;
+}
+
+.sign-up-link,
+.sign-up-link:hover,
+.sign-up-link:focus {
+    color: #cc6e7c;
+    border-bottom: 1px solid #cc6e7c;
+    text-decoration: none;
+}
+
+.sign-up-link:hover {
+    border-bottom: 1.5px solid #cc6e7c;
 }
