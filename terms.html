@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,800"><link rel="stylesheet" href="https://cdn.versoly.com/main.min.css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  
+  <meta name="description" content="">
+  
+  <style>body {font-family: Montserrat,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}</style>
+  
+
+</head>
+<body  >
+  
+  <nav class="topnav navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="navbar">
+    <div class="container"><a class="navbar-brand" href="/"><strong>CrossCompute</strong></a><button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+        <div class="navbar-collapse collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto d-flex align-items-center"></ul>
+            <ul class="navbar-nav ml-auto d-flex align-items-center">
+                <li class="nav-item"><a class="nav-link" href="#steps">Product</a></li>
+                <li class="nav-item"><a class="nav-link" href="#features">Company</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pricing">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                <li class="nav-item"><span class="nav-link" href="#"><a class="btn btn-dark" href="#">Sign Up</a></span></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+      <section class="jumbotron bg-transparent" >
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                
+              </div>
+            </div>
+        </div>
+      </section>
+      <footer class="navbar navbar-expand-lg navbar-dark bg-dark py-5" id="footer">
+    <div class="container d-lg-block">
+        <div class="row row-eq-height mb-5">
+            <div class="col-md-3 text-left d-flex align-items-center">
+                <div class="w-100 text-left"><a class="navbar-brand" href="#"><b>Versoly</b></a>
+                    <div>
+                        <p class="text-light">Versoly helps you build SaaS landing pages that convert.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <h6 class="mb-4 text-light">Product</h6><a class="d-block text-white" href="#">Sign Up</a><a class="d-block text-white" href="#">Pricing</a><a class="d-block text-white" href="#">F.A.Q.</a>
+            </div>
+            <div class="col-md-3 text-center">
+                <h6 class="mb-4 text-light">Company</h6><a class="d-block text-white" href="#">Terms</a><a class="d-block text-white" href="#">Privacy</a><a class="d-block text-white" href="#">Contact Us</a>
+            </div>
+            <div class="col-md-3 text-center">
+                <h6 class="mb-4 text-light">Connect With Us</h6><a class="d-block text-white" href="#"><i class="fab fa-facebook-square fa-2x pr-2"></i></a> <a class="d-block text-white" href="#"><i class="fab fa-twitter-square fa-2x pr-2"></i></a> <a class="d-block text-white" href="#"><i class="fab fa-instagram fa-2x pr-2"></i></a>
+            </div>
+        </div>
+        <div class="row w-100 justify-content-between text-white">
+            <div class="col text-center">
+                <p><small>© 2019 Versoly. All rights reserved.</small></p>
+            </div>
+        </div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  
+  
+  
+  
+  <script>
+    window.addEventListener('scroll', function () {
+      window.setTimeout(function () {
+        
+      }, 1000)
+    }, {once: true})
+  </script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
+  <script>
+    // if (document.getElementById('navbar').className.includes('fixed-top')) {
+
+    // }
+  </script>
+  <script>
+    if (document.getElementById('monthly-pricing-button')) {
+      document.getElementById('monthly-pricing-button').onclick = function() {
+        document.querySelectorAll('[data-monthly]').forEach(function(element) {
+          element.innerHTML = element.getAttribute('data-monthly')
+        })
+        var activeClass = document.getElementById('annual-pricing-button').className
+        document.getElementById('annual-pricing-button').className = document.getElementById('monthly-pricing-button').className
+        document.getElementById('monthly-pricing-button').className = activeClass
+
+      }
+    }
+
+    if (document.getElementById('monthly-pricing-button')) {
+      document.getElementById('annual-pricing-button').onclick = function() {
+        document.querySelectorAll('[data-monthly]').forEach(function(element) {
+          element.innerHTML = element.getAttribute('data-annual')
+        })
+        var activeClass = document.getElementById('monthly-pricing-button').className
+        document.getElementById('monthly-pricing-button').className = document.getElementById('annual-pricing-button').className
+        document.getElementById('annual-pricing-button').className = activeClass
+      }
+    }
+  </script>
+</body>
+</html>
